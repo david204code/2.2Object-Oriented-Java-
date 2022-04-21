@@ -4,6 +4,10 @@ The class needed are:
 Course, Stream, Student, Trainer
 Steam is like a topic of a course
 
+For Encapsulation have the trainer wages set as 
+private
+
+For Polymorphism Course extends Stream
 
 Completed
 Create a user class
