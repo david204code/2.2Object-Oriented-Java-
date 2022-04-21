@@ -1,11 +1,14 @@
 Tasks
-Create a user class
+
 The class needed are:
 Course, Stream, Student, Trainer
 Steam is like a topic of a course
 
 
 Completed
+Create a user class
+Trainer extends User, Student extends User
+Course extends Stream
 
 
 
