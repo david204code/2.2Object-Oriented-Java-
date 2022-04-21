@@ -1,0 +1,28 @@
+Tasks
+Create a user class
+The class needed are:
+Course, Stream, Student, Trainer
+Steam is like a topic of a course
+
+
+Completed
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
