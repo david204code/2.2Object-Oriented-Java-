@@ -1,5 +1,5 @@
 package console;
 
-public class Course extends Stream{
+public class Course extends Stream {
 
 }
