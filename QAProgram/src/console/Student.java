@@ -19,4 +19,9 @@ public class Student extends User {
 	public void setStudentID(String studentID) {
 		this.studentID = studentID;
 	}
+	
+	public String toString() {
+//		return "StudentID:" + studentID + " FirstName:" + getFirstName() + " LastName:" + getLastName() + " Age:" + getAge() + " Gender:" + getGender();
+		return String.format("StudentID: %s, FirstName: %s, LastName: %s, Age: %s, Gender: %s", studentID, getFirstName(), getLastName(), getAge(), getGender());
+	}
 }

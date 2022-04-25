@@ -13,7 +13,7 @@ public class User {
 		this.lastName = lastName;
 		this.age = age;
 		this.gender = gender;
-		printGender();
+//		printGender();
 	}
 	
 	public String getFirstName() {
@@ -48,10 +48,10 @@ public class User {
 		this.gender = gender;
 	}
 	
-	public final void printGender() {
-		System.out.println(gender.name());
-//		gender.name();
-	}
+//	public final void printGender() {
+//		System.out.println(gender.name());
+////		gender.name();
+//	}
 
 }
 
