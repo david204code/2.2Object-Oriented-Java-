@@ -39,4 +39,8 @@ public class Trainer extends User {
 	public void setDbsClear(boolean dbsClear) {
 		this.dbsClear = dbsClear;
 	}
+	
+	public String toString() {
+		return String.format("TrainerID: %s, Salary: %s, DBSClear: %s, FirstName: %s, LastName: %s, Age: %s, Gender: %s", trainerID, salary, dbsClear, getFirstName(), getLastName(), getAge(), getGender());
+	}
 }

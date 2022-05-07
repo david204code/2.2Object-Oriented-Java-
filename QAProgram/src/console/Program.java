@@ -16,6 +16,9 @@ public class Program {
 		Enrollment students = new Enrollment();
 		students.enroll();
 		
+		Employment trainers = new Employment();
+		trainers.employ();
+		
 	}
 
 //	option 2
