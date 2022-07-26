@@ -9,10 +9,13 @@ private
 
 For Polymorphism Course extends Stream
 
+Each stream has many students and a trainer
+
 Completed
 Create a user class
 Trainer extends User, Student extends User
-Course extends Stream
+Course extends Stream<<correction Streams extends course
+
 
 
 

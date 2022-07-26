@@ -1,4 +1,5 @@
 package console;
+import java.util.*;
 
 public class Program {
 	public static void main(String[] args) {
@@ -18,6 +19,11 @@ public class Program {
 		
 		Employment trainers = new Employment();
 		trainers.employ();
+		
+		ArrayList<Stream> myList = new ArrayList<Stream>();
+		Stream s1 = new Stream("Java", "6 Months", "M-W-F");
+		myList.add(s1);
+		System.out.println(s1);
 		
 	}
 
